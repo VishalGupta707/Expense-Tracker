@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Auth Container */
+.full-width-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.auth-form h2 {
+  margin-bottom: 20px;
+}
+
+.auth-form input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.auth-form button:hover {
+  background: #0056b3;
+}
+
+/* Dashboard */
+#dashboard {
+  text-align: center;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li button {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+li button:hover {
+  background: #a71d2a;
+}
+
+/* Logout Button */
+#logout-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-button:hover {
+  background: #a71d2a;
+}
